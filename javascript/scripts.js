@@ -11,7 +11,7 @@ let news = $.get({
 
 data.forEach(element => {
     let flashback = document.createElement("section") ;
-    flashback.innerHTML = `<div class="container mt-5" id="outerdiv">
+    flashback.innerHTML = `<div class="container col-ml-10" id="outerdiv ">
      <div class="row">
        <div class = "col-md-4"><img src = "http://localhost/news_bootstrap_jquery/${element.pictures}" /></div>
        <div class="col-md-9" id="innerdiv">
